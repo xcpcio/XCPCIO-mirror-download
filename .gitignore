@@ -1,5 +1,5 @@
 
 .DS_Store
 .vscode/
-software-mirror/*
-!software-mirror/.gitkeep
+mirror-download/*
+!mirror-download/.gitkeep
