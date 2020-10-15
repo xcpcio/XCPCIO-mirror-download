@@ -6,7 +6,7 @@ export default (props:any) => {
   let message = "404 Not Found.";
 	if (downloadlist[filename]) {
 		window.location.href = downloadlist[filename];
-    message = "downloading";
+    message = "downloading...";
 	}	
 	return (<div>
       {message}
